@@ -7,19 +7,19 @@ import java.math.BigInteger;
  * q : Prime Number
  * N : p * q
  * temp :  (p-1) * (q-1)
- * <p>
+ *
  * --- public key ---
  * e : 3 or 5 or 2^16 + 1 or ...
- * <p>
+ *
  * --- private key ---
  * d : e^-1 mod(temp)
- * <p>
+ *
  * m : (Big Integer) message
  * c : Encrypted Message
- * <p>
+ *
  * --- encryption ---
  * c = m^e mod(N)
- * <p>
+ *
  * --- decryption ---
  * m = c^d mod(N)
  */
